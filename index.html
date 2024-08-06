@@ -1,0 +1,125 @@
+
+<!-- saved from url=(0069)file:///C:/Users/cameron/Downloads/temp_bootcamp_repos/index.html#cnt -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <style>
+    h1 {
+        color:white;
+        font-family:"FreeMono",monospace;
+    }
+    p {
+        font-size:20px;
+        font-family:"FreeMono",monospace;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 5px;
+    }
+    .grid-header{
+        background: DodgerBlue;
+        border: black 5px solid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .grid-nav {
+        background: DodgerBlue;
+        border: black 5px solid;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 22;
+    }
+    .grid-nav2 {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .grid-abt-me {
+        background: AliceBlue;
+        border: black 5px solid;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 7;
+        padding: 5;
+    }
+    .grid-projects {
+        background: AliceBlue;
+        border: black 5px solid;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 15;
+        padding: 5;
+    }
+    .grid-projects2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .grid-contacts {
+        background: AliceBlue;
+        border: black 5px solid;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 16;
+        grid-row-end: 22;
+        padding: 5;
+    }
+    .project-card {
+        flex-basis: 100%;
+        text-align: center;
+        text-wrap: wrap;
+    }</style>
+</head><body>
+    
+    
+    
+    <div class="grid-container">
+        
+        <div class="grid-header">
+    <h1>Cameron Chin</h1>
+</div><div class="grid-nav">
+    <a href="file:///C:/Users/cameron/Downloads/temp_bootcamp_repos/index.html#abtme">About Me</a><br><a href="file:///C:/Users/cameron/Downloads/temp_bootcamp_repos/index.html#prj">Projects</a><br><a href="file:///C:/Users/cameron/Downloads/temp_bootcamp_repos/index.html#cnt">Contacts</a>
+</div>
+        <div class="grid-abt-me" id="abt">
+    <h2>About Me</h2><img src="./index_files/duck.jpg" alt="Placeholder" style="width:250px">
+    
+    <p>Paragraph paragraph paragraph
+    Words words words
+    Something else here to describe me.</p>
+</div>
+<div class="grid-projects" id="prj">
+    <h2>Projects</h2>
+    <div class="grid-projects2">
+        <div class="project-card">
+            <img width="150px" src="./index_files/project1.jfif">
+            <h3><a>project1</a></h3>
+            <p>Description about project</p>
+        </div>
+        <div class="project-card">
+            <img width="150px" src="./index_files/project2.jfif">
+            <h3><a>project2</a></h3>
+            <p>Short description</p>
+        </div>
+        <div class="project-card">
+            <img width="150px" src="./index_files/project3.jpg">
+            <h3><a>project3</a></h3>
+            <p>Description about project but this one is bigger to make it look more realistic.</p>
+        </div>
+    </div>
+    <p>Paragraph paragraph paragraph
+    Words words words
+    Something else here to describe me.</p>
+</div><div class="grid-contacts" id="cnt">
+    <h2>contacts</h2>
+    <p>Paragraph paragraph paragraph
+    Words words words
+    Something else here to describe me.</p>
+</div></div></body></html>
